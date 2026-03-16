@@ -577,7 +577,7 @@
         src="brand_assets/assets/logo-primary-horizontal-dark.png"
         alt="Dental Maverick AI logo"
         height="32"
-        style="height:32px; width:auto;"
+        style="height:38px; width:auto;"
       />
     </a>
 
@@ -1239,9 +1239,11 @@
           form.style.display = 'none';
           success.classList.add('visible');
         } else {
+          const body = await res.json().catch(() => ({}));
+          const msg = body?.error || `Error ${res.status}: ${res.statusText}`;
           btn.disabled = false;
           btn.innerHTML = 'Request Early Access <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M8 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>';
-          alert('Something went wrong. Please try again or email us directly.');
+          alert(`Submission failed: ${msg}`);
         }
       } catch {
         btn.disabled = false;
