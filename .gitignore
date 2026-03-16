@@ -1,0 +1,7 @@
+node_modules/
+temporary screenshots/
+*.pdf
+Claude.md
+screenshot-section.mjs
+package.json
+package-lock.json

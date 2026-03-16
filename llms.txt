@@ -1,0 +1,54 @@
+# Dental Maverick AI
+
+## Product
+
+- Name: Dental Maverick AI
+- Domain: dentalmaverick.ai
+- Category: AI-Powered Dental Billing & Insurance Automation SaaS
+- Pricing: $699/month (all-inclusive)
+
+## Description
+
+Dental Maverick AI is a purpose-built AI platform that automates dental insurance verification, claim submission, and follow-up for dental practices. It replaces manual billing workflows that cost the average practice $65,000–$200,000 per year in lost revenue, staff time, and claim denials.
+
+## Key Features
+
+- Real-time insurance eligibility verification (seconds, not 20–40 minutes per patient)
+- AI-generated clinical narratives with automatic image/X-ray attachments in carrier-required formats
+- One-click claim submission with pre-submission AI error scrubbing
+- Automatic follow-up and denial resubmission with AI-corrected documentation
+- Integrates with existing Practice Management Software (PMS)
+
+## Outcomes & Results
+
+- 90%+ reduction in eligibility verification time
+- 40–60% fewer claim denials
+- 10–20 day faster accounts receivable (AR) collection
+- Up to 50% reduction in administrative rework
+- Net annual savings of $130,000–$290,000+ vs. manual billing employee
+
+## Target Audience
+
+- Owner-Dentists managing practice operations
+- Practice Managers and Office Managers
+- Dental Billing Specialists
+- Multi-location dental groups
+
+## Problem Solved
+
+Manual dental billing requires 20–40 staff hours per week per practice, drives front-desk turnover (29.7% annual rate), and leaks $65,000–$200,000/year in uncollected or incorrectly submitted revenue. Dental Maverick AI eliminates these manual touchpoints entirely.
+
+## Pricing Comparison
+
+- Manual billing employee (salary, benefits, turnover, errors): $138,000–$298,000/year true cost
+- Dental Maverick AI: $8,388/year ($699/month)
+- Estimated annual net savings: $130,000–$290,000+
+
+## Waitlist / Contact
+
+- Join the waitlist: https://dentalmaverick.ai/#waitlist
+- Website: https://dentalmaverick.ai
+
+## Built For
+
+Dental Maverick AI is designed specifically for dental practices — not adapted from a generic billing tool. It was developed in close collaboration with practicing dentists and dental office managers.

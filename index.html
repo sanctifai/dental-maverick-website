@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="minimal">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO -->
+  <title>Dental Maverick AI — AI-Powered Dental Billing &amp; Insurance Automation</title>
+  <meta name="description" content="Dental Maverick AI automates dental insurance verification, claim submission, and follow-up so your front desk can focus on patients — not paperwork. Starting at $699/month." />
+  <link rel="canonical" href="https://dentalmaverick.ai/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://dentalmaverick.ai/" />
+  <meta property="og:title" content="Dental Maverick AI — AI-Powered Dental Billing &amp; Insurance Automation" />
+  <meta property="og:description" content="Stop losing $65k–$200k a year to manual billing errors. Dental Maverick AI handles eligibility checks, claim submission, and follow-up automatically." />
+  <meta property="og:image" content="https://dentalmaverick.ai/brand_assets/assets/social-banner.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Dental Maverick AI — AI-Powered Dental Billing &amp; Insurance Automation" />
+  <meta name="twitter:description" content="Stop losing $65k–$200k a year to manual billing errors. Dental Maverick AI automates insurance for dental practices." />
+  <meta name="twitter:image" content="https://dentalmaverick.ai/brand_assets/assets/social-banner.png" />
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/png" sizes="32x32" href="brand_assets/assets/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="brand_assets/assets/favicon-192.png" />
+  <link rel="apple-touch-icon" sizes="512x512" href="brand_assets/assets/favicon-512.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Dental Maverick AI",
+      "url": "https://dentalmaverick.ai",
+      "logo": "https://dentalmaverick.ai/brand_assets/assets/logo-primary-horizontal-dark.png",
+      "description": "AI-powered dental billing and insurance automation platform for dental practices."
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Dental Maverick AI",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Automates dental insurance verification, AI-assisted claim narratives, one-click claim submission, and automatic follow-up tracking.",
+      "offers": {
+        "@type": "Offer",
+        "price": "699",
+        "priceCurrency": "USD",
+        "billingIncrement": "P1M"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is Dental Maverick AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dental Maverick AI is an AI-powered dental billing and insurance automation platform. It handles real-time eligibility verification, generates AI-assisted claim narratives with image attachments, submits claims in one click, and automatically follows up on outstanding claims — so your front desk can focus on patients instead of paperwork."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Dental Maverick AI automate insurance verification?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dental Maverick AI connects directly to insurance portals and clearinghouses to pull real-time eligibility data for each patient. Verifications that once took 20–40 minutes per patient are completed in seconds, reducing verification time by 90% or more."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does Dental Maverick AI cost?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dental Maverick AI starts at $699 per month — a fraction of the cost of a full-time billing employee and a small percentage of the revenue leakage most practices experience from manual billing errors."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much can a dental practice save by switching to AI billing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Practices typically recover $65,000–$200,000 per year in previously leaked revenue, reduce claim denials by 40–60%, accelerate accounts receivable by 10–20 days, and cut administrative rework by up to 50%."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Dental Maverick AI built by dentists?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dental Maverick AI was designed in close collaboration with practicing dentists and dental office managers who understand the real friction points in dental billing. The platform is purpose-built for dental — not a generic billing tool adapted for the industry."
+          }
+        }
+      ]
+    }
+  ]
+  </script>
+
+  <style>
+    /* ── CSS Variables ── */
+    :root,
+    [data-theme="minimal"] {
+      --bg-base:          #F8F6F1;
+      --bg-surface:       #FFFFFF;
+      --bg-elevated:      #FFFFFF;
+      --text-primary:     #1A1D2E;
+      --text-secondary:   #4B5568;
+      --text-muted:       #B9B4AA;
+      --border:           #E7E4DE;
+      --ink:              #1A1D2E;
+      --ink-hover:        #2d3248;
+      --ink-text:         #ffffff;
+      --shadow-ink:       rgba(26,29,46,0.18);
+      --nav-bg:           rgba(248,246,241,0.88);
+      --roi-bar-bg:       #1A1D2E;
+      --roi-bar-label:    rgba(255,255,255,0.5);
+      --roi-bar-value:    #ffffff;
+      --roi-btn-bg:       #ffffff;
+      --roi-btn-text:     #1A1D2E;
+      --tile-hover-border:#C8C4BD;
+      --btn-secondary-hover-bg: rgba(26,29,46,0.04);
+      --logo-src: url('brand_assets/assets/logo-primary-horizontal-dark.png');
+    }
+
+    [data-theme="dark"] {
+      --bg-base:          #0F1119;
+      --bg-surface:       #181B27;
+      --bg-elevated:      #1E2233;
+      --text-primary:     #F0EDE7;
+      --text-secondary:   #8A93A8;
+      --text-muted:       #4E5363;
+      --border:           #252840;
+      --ink:              #E6E2DC;
+      --ink-hover:        #FFFFFF;
+      --ink-text:         #1A1D2E;
+      --shadow-ink:       rgba(0,0,0,0.4);
+      --nav-bg:           rgba(15,17,25,0.92);
+      --roi-bar-bg:       #E6E2DC;
+      --roi-bar-label:    rgba(26,29,46,0.55);
+      --roi-bar-value:    #1A1D2E;
+      --roi-btn-bg:       #1A1D2E;
+      --roi-btn-text:     #F0EDE7;
+      --tile-hover-border:#363A55;
+      --btn-secondary-hover-bg: rgba(240,237,231,0.06);
+      --logo-src: url('brand_assets/assets/logo-primary-horizontal-light.png');
+    }
+
+    /* Smooth theme transitions */
+    body, #nav, .stat-card, .feature-tile, .form-field, .theme-pill {
+      transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* ── Base ── */
+    *, *::before, *::after { box-sizing: border-box; }
+
+    html {
+      scroll-behavior: smooth;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    body {
+      background-color: var(--bg-base);
+      color: var(--text-primary);
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* ── Grain overlay ── */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: 9999;
+      opacity: 0.025;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+      background-size: 256px 256px;
+    }
+
+    /* ── Animations ── */
+    .fade-up {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.65s cubic-bezier(0.22, 1, 0.36, 1),
+                  transform 0.65s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .fade-up.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .fade-up.delay-1 { transition-delay: 0.1s; }
+    .fade-up.delay-2 { transition-delay: 0.2s; }
+    .fade-up.delay-3 { transition-delay: 0.3s; }
+    .fade-up.delay-4 { transition-delay: 0.4s; }
+
+    /* ── Nav ── */
+    #nav {
+      background-color: var(--nav-bg);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .nav-link {
+      color: var(--text-secondary);
+      font-size: 0.875rem;
+      font-weight: 500;
+      letter-spacing: 0.01em;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+    .nav-link:hover { color: var(--text-primary); }
+
+    /* ── CTA Button ── */
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      background-color: var(--ink);
+      color: var(--ink-text);
+      font-size: 0.875rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      padding: 0.625rem 1.25rem;
+      border-radius: 9999px;
+      border: 1.5px solid rgba(128,128,128,0.15);
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.2s ease,
+                  transform 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+                  box-shadow 0.2s ease;
+      box-shadow: 0 2px 8px var(--shadow-ink), 0 1px 2px rgba(0,0,0,0.08);
+    }
+    .btn-primary:hover {
+      background-color: var(--ink-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px var(--shadow-ink), 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .btn-primary:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 8px var(--shadow-ink);
+    }
+    .btn-primary:focus-visible {
+      outline: 2px solid var(--ink);
+      outline-offset: 3px;
+    }
+
+    .btn-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.375rem;
+      background-color: transparent;
+      color: var(--text-primary);
+      font-size: 0.875rem;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      padding: 0.625rem 1.25rem;
+      border-radius: 9999px;
+      border: 1.5px solid var(--border);
+      text-decoration: none;
+      cursor: pointer;
+      transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease;
+    }
+    .btn-secondary:hover {
+      border-color: var(--text-secondary);
+      background-color: var(--btn-secondary-hover-bg);
+      transform: translateY(-1px);
+    }
+    .btn-secondary:focus-visible {
+      outline: 2px solid var(--ink);
+      outline-offset: 3px;
+    }
+
+    /* ── Section alternation ── */
+    .section-base { background-color: var(--bg-base); }
+    .section-surface { background-color: var(--bg-surface); }
+
+    /* ── Divider ── */
+    .section-divider {
+      border: none;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Label pill ── */
+    .label-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      border: 1px solid var(--border);
+      border-radius: 9999px;
+      padding: 0.3rem 0.8rem;
+    }
+
+    /* ── Hero ── */
+    .hero-heading {
+      font-size: clamp(2.4rem, 6vw, 4.5rem);
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      line-height: 1.08;
+      color: var(--text-primary);
+    }
+    .hero-sub {
+      font-size: clamp(1rem, 2vw, 1.2rem);
+      font-weight: 400;
+      line-height: 1.7;
+      color: var(--text-secondary);
+    }
+
+    /* ── Stat cards ── */
+    .stat-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: 2rem 1.75rem;
+      transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+                  box-shadow 0.25s ease;
+    }
+    .stat-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 32px rgba(26,29,46,0.08), 0 2px 8px rgba(26,29,46,0.04);
+    }
+
+    .stat-number {
+      font-size: 2.75rem;
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      color: var(--text-primary);
+    }
+
+    /* ── Feature tiles ── */
+    .feature-tile {
+      background: var(--bg-base);
+      border: 1px solid var(--border);
+      border-radius: 1rem;
+      padding: 2rem 1.75rem;
+      transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1),
+                  box-shadow 0.25s ease,
+                  border-color 0.2s ease;
+    }
+    .feature-tile:hover {
+      transform: translateY(-4px);
+      border-color: var(--tile-hover-border);
+      box-shadow: 0 12px 32px rgba(26,29,46,0.07), 0 2px 8px rgba(26,29,46,0.04);
+    }
+    .feature-icon {
+      width: 2.5rem;
+      height: 2.5rem;
+      background: var(--ink);
+      color: var(--ink-text);
+      border-radius: 0.625rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+      flex-shrink: 0;
+    }
+
+    /* ── Results ── */
+    .result-stat {
+      font-size: clamp(2.2rem, 4vw, 3.25rem);
+      font-weight: 800;
+      letter-spacing: -0.04em;
+      line-height: 1;
+      color: var(--text-primary);
+    }
+
+    /* ── ROI Table ── */
+    .roi-table-wrapper {
+      overflow-x: auto;
+    }
+    .roi-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+    }
+    .roi-table th {
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .roi-table td {
+      padding: 0.9rem 1.5rem;
+      font-size: 0.95rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+    .roi-table tr:last-child td { border-bottom: none; }
+    .col-manual { color: var(--text-secondary); }
+    .col-ai { color: var(--text-primary); font-weight: 600; }
+    .col-label { color: var(--text-secondary); font-size: 0.875rem; }
+
+    /* ── Waitlist form ── */
+    .form-field {
+      width: 100%;
+      background: var(--bg-surface);
+      border: 1.5px solid var(--border);
+      border-radius: 0.625rem;
+      padding: 0.75rem 1rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.9rem;
+      color: var(--text-primary);
+      transition: border-color 0.2s ease, box-shadow 0.2s ease;
+      outline: none;
+      -webkit-appearance: none;
+      appearance: none;
+    }
+    .form-field::placeholder { color: var(--text-muted); }
+    .form-field:focus {
+      border-color: var(--ink);
+      box-shadow: 0 0 0 3px rgba(26,29,46,0.08);
+    }
+    .form-field:hover:not(:focus) { border-color: #C8C4BD; }
+
+    .form-label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--text-secondary);
+      margin-bottom: 0.4rem;
+    }
+
+    /* ── FAQ ── */
+    .faq-item {
+      border-bottom: 1px solid var(--border);
+    }
+    .faq-item:last-child { border-bottom: none; }
+
+    .faq-trigger {
+      width: 100%;
+      text-align: left;
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+      padding: 1.5rem 0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-primary);
+      transition: color 0.2s ease;
+    }
+    .faq-trigger:hover { color: var(--text-secondary); }
+    .faq-trigger:focus-visible {
+      outline: 2px solid var(--ink);
+      outline-offset: 2px;
+      border-radius: 4px;
+    }
+
+    .faq-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      flex-shrink: 0;
+      border: 1.5px solid var(--border);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.2s ease;
+    }
+    .faq-trigger[aria-expanded="true"] .faq-icon {
+      transform: rotate(45deg);
+      background-color: var(--ink);
+      border-color: var(--ink);
+    }
+    .faq-trigger[aria-expanded="true"] .faq-icon svg { color: var(--ink-text); }
+
+    .faq-answer {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .faq-answer.open {
+      grid-template-rows: 1fr;
+    }
+    .faq-answer-inner {
+      overflow: hidden;
+    }
+    .faq-answer-inner p {
+      padding-bottom: 1.5rem;
+      font-size: 0.95rem;
+      line-height: 1.75;
+      color: var(--text-secondary);
+    }
+
+    /* ── Theme switcher ── */
+    #theme-switcher {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      z-index: 200;
+    }
+    #theme-switcher:focus-visible .theme-pill {
+      outline: 2px solid var(--ink);
+      outline-offset: 2px;
+    }
+    #theme-switcher:hover .theme-pill {
+      border-color: var(--text-muted);
+    }
+    .theme-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: var(--bg-surface);
+      border: 1px solid var(--border);
+      border-radius: 9999px;
+      padding: 0.5rem 1rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      color: var(--text-secondary);
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(26,29,46,0.08), 0 1px 4px rgba(26,29,46,0.04);
+    }
+    .theme-dot {
+      width: 0.5rem;
+      height: 0.5rem;
+      border-radius: 50%;
+      background-color: var(--ink);
+    }
+
+    /* ── Success state ── */
+    #form-success {
+      display: none;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+    #form-success.visible { display: block; }
+
+    /* ── Scrollbar ── */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: var(--bg-base); }
+    ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: var(--text-muted); }
+  </style>
+</head>
+
+<body>
+
+<!-- ══════════════════════════════════════════
+     NAV
+═══════════════════════════════════════════ -->
+<header id="nav">
+  <nav aria-label="Main navigation" class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <a href="#" aria-label="Dental Maverick AI home">
+      <img
+        id="nav-logo"
+        src="brand_assets/assets/logo-primary-horizontal-dark.png"
+        alt="Dental Maverick AI logo"
+        height="32"
+        style="height:32px; width:auto;"
+      />
+    </a>
+
+    <div class="hidden md:flex items-center gap-8">
+      <a href="#pain" class="nav-link">The Problem</a>
+      <a href="#solution" class="nav-link">Solution</a>
+      <a href="#roi" class="nav-link">ROI</a>
+      <a href="#faq" class="nav-link">FAQ</a>
+    </div>
+
+    <a href="#waitlist" class="btn-primary">
+      Join Waitlist
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+        <path d="M2.5 7h9M7.5 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ══════════════════════════════════════════
+     HERO
+═══════════════════════════════════════════ -->
+<section aria-labelledby="hero-heading" class="section-base relative overflow-hidden">
+
+  <!-- Radial background gradients for depth -->
+  <div aria-hidden="true" style="position:absolute;inset:0;pointer-events:none;z-index:0;">
+    <div style="position:absolute;top:-10%;left:50%;transform:translateX(-50%);width:900px;height:700px;background:radial-gradient(ellipse at center, rgba(26,29,46,0.055) 0%, transparent 65%);"></div>
+    <div style="position:absolute;bottom:-15%;right:-10%;width:600px;height:500px;background:radial-gradient(ellipse at center, rgba(185,180,170,0.12) 0%, transparent 65%);"></div>
+  </div>
+
+  <div class="relative z-10 max-w-5xl mx-auto px-6 pt-24 pb-20 text-center">
+
+    <div class="fade-up flex justify-center mb-6">
+      <span class="label-pill">
+        <span style="width:0.45rem;height:0.45rem;background:var(--text-muted);border-radius:50%;display:inline-block;"></span>
+        Now accepting early access
+      </span>
+    </div>
+
+    <h1 id="hero-heading" class="hero-heading fade-up delay-1 mb-6 max-w-3xl mx-auto">
+      Stop Managing<br />Insurance.<br />Start Doing Dentistry.
+    </h1>
+
+    <p class="hero-sub fade-up delay-2 max-w-xl mx-auto mb-10">
+      Dental Maverick AI automates eligibility verification, claim submission, and follow-up — so your team can focus on patients, not paperwork.
+    </p>
+
+    <div class="fade-up delay-3 flex flex-col sm:flex-row items-center justify-center gap-3">
+      <a href="#waitlist" class="btn-primary" style="font-size:1rem; padding:0.8rem 1.75rem;">
+        Join the Waitlist
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M3 8h10M8 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+      <a href="#solution" class="btn-secondary" style="font-size:1rem; padding:0.8rem 1.75rem;">See how it works</a>
+    </div>
+
+    <!-- Social proof bar -->
+    <div class="fade-up delay-4 mt-16 flex flex-col sm:flex-row items-center justify-center gap-6 sm:gap-12">
+      <div class="text-center">
+        <div class="text-2xl font-bold tracking-tight" style="color:var(--text-primary);">$699<span style="font-size:1rem;font-weight:500;color:var(--text-secondary);">/mo</span></div>
+        <div class="text-xs mt-0.5" style="color:var(--text-muted);letter-spacing:0.06em;text-transform:uppercase;font-weight:600;">All-inclusive</div>
+      </div>
+      <div class="hidden sm:block" style="width:1px;height:2.5rem;background:var(--border);"></div>
+      <div class="text-center">
+        <div class="text-2xl font-bold tracking-tight" style="color:var(--text-primary);">90%+</div>
+        <div class="text-xs mt-0.5" style="color:var(--text-muted);letter-spacing:0.06em;text-transform:uppercase;font-weight:600;">Less verification time</div>
+      </div>
+      <div class="hidden sm:block" style="width:1px;height:2.5rem;background:var(--border);"></div>
+      <div class="text-center">
+        <div class="text-2xl font-bold tracking-tight" style="color:var(--text-primary);">40–60%</div>
+        <div class="text-xs mt-0.5" style="color:var(--text-muted);letter-spacing:0.06em;text-transform:uppercase;font-weight:600;">Fewer denials</div>
+      </div>
+    </div>
+
+  </div>
+
+  <hr class="section-divider" />
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     PAIN SECTION
+═══════════════════════════════════════════ -->
+<section id="pain" aria-labelledby="pain-heading" class="section-surface">
+  <div class="max-w-5xl mx-auto px-6 py-20">
+
+    <div class="text-center mb-14 fade-up">
+      <span class="label-pill mb-4 inline-block">The Hidden Cost</span>
+      <h2 id="pain-heading" class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4" style="letter-spacing:-0.03em;line-height:1.1;">
+        The Hidden Cost of<br />Manual Billing
+      </h2>
+      <p class="text-base max-w-lg mx-auto" style="color:var(--text-secondary);line-height:1.7;">
+        While you're focused on patient care, manual insurance workflows are quietly draining your revenue, your staff, and your team's morale.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-3 gap-5">
+
+      <article class="stat-card fade-up delay-1">
+        <div class="stat-number mb-2">29.7%</div>
+        <div class="text-sm font-semibold mb-2" style="color:var(--text-primary);">Front-desk turnover rate</div>
+        <p class="text-sm leading-relaxed" style="color:var(--text-secondary);">
+          The dental industry's front-desk turnover is nearly 30% annually — largely driven by the frustration of manual insurance work. Every departure costs $15,000–$20,000 to replace.
+        </p>
+      </article>
+
+      <article class="stat-card fade-up delay-2">
+        <div class="stat-number mb-2">20–40<span style="font-size:1.5rem;font-weight:700;">h</span></div>
+        <div class="text-sm font-semibold mb-2" style="color:var(--text-primary);">Hours lost per week</div>
+        <p class="text-sm leading-relaxed" style="color:var(--text-secondary);">
+          The average dental practice spends 20–40 staff hours per week on manual insurance tasks: calling carriers, verifying benefits, chasing denials, and re-submitting claims.
+        </p>
+      </article>
+
+      <article class="stat-card fade-up delay-3">
+        <div class="stat-number mb-2">$200k</div>
+        <div class="text-sm font-semibold mb-2" style="color:var(--text-primary);">Revenue leaked per year</div>
+        <p class="text-sm leading-relaxed" style="color:var(--text-secondary);">
+          Claim errors, missed follow-ups, and uncollected balances leak $65,000–$200,000 per year from the average practice — money that should be on your bottom line.
+        </p>
+      </article>
+
+    </div>
+  </div>
+
+  <hr class="section-divider" />
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     SOLUTION SECTION
+═══════════════════════════════════════════ -->
+<section id="solution" aria-labelledby="solution-heading" class="section-base">
+  <div class="max-w-5xl mx-auto px-6 py-20">
+
+    <div class="text-center mb-14 fade-up">
+      <span class="label-pill mb-4 inline-block">How it works</span>
+      <h2 id="solution-heading" class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4" style="letter-spacing:-0.03em;line-height:1.1;">
+        Built for How Dental<br />Offices Actually Work
+      </h2>
+      <p class="text-base max-w-lg mx-auto" style="color:var(--text-secondary);line-height:1.7;">
+        Four core capabilities that eliminate manual touchpoints from eligibility check to payment — without changing your existing PMS.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 gap-5">
+
+      <article class="feature-tile fade-up delay-1">
+        <div class="feature-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <path d="M9 2a7 7 0 100 14A7 7 0 009 2zm0 0v3m0 8v-3M4 9h3m4 0h3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="text-base font-bold mb-2" style="letter-spacing:-0.01em;">Real-Time Eligibility Verification</h3>
+        <p class="text-sm leading-relaxed" style="color:var(--text-secondary);">
+          Automatically verify patient benefits the moment an appointment is scheduled. No more calling carriers. No more manual lookups. Verified in seconds, not minutes.
+        </p>
+      </article>
+
+      <article class="feature-tile fade-up delay-2">
+        <div class="feature-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <rect x="2" y="3" width="14" height="12" rx="2" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M5 7h8M5 10h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3 class="text-base font-bold mb-2" style="letter-spacing:-0.01em;">AI Narratives + Image Attachments</h3>
+        <p class="text-sm leading-relaxed" style="color:var(--text-secondary);">
+          AI-generated clinical narratives match carrier requirements automatically. X-rays and images are attached in the correct format — no manual formatting or resizing.
+        </p>
+      </article>
+
+      <article class="feature-tile fade-up delay-3">
+        <div class="feature-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <circle cx="9" cy="9" r="7" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M6 9l2 2 4-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="text-base font-bold mb-2" style="letter-spacing:-0.01em;">One-Click Claim Submission</h3>
+        <p class="text-sm leading-relaxed" style="color:var(--text-secondary);">
+          Submit clean claims to any payer with a single click. The AI scrubs each claim for errors before it leaves your office — catching denials before they happen.
+        </p>
+      </article>
+
+      <article class="feature-tile fade-up delay-4">
+        <div class="feature-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <path d="M3 9a6 6 0 1012 0" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+            <path d="M15 9l-2-2m2 2l-2 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="9" cy="5.5" r="1.5" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="text-base font-bold mb-2" style="letter-spacing:-0.01em;">Automatic Follow-Up &amp; Status Tracking</h3>
+        <p class="text-sm leading-relaxed" style="color:var(--text-secondary);">
+          Every outstanding claim is tracked and followed up automatically. Denials trigger AI-powered resubmissions with corrected documentation — no manual intervention needed.
+        </p>
+      </article>
+
+    </div>
+  </div>
+
+  <hr class="section-divider" />
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     RESULTS SECTION
+═══════════════════════════════════════════ -->
+<section id="results" aria-labelledby="results-heading" class="section-surface">
+  <div class="max-w-5xl mx-auto px-6 py-20">
+
+    <div class="text-center mb-14 fade-up">
+      <span class="label-pill mb-4 inline-block">Results</span>
+      <h2 id="results-heading" class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4" style="letter-spacing:-0.03em;line-height:1.1;">
+        Measurable Impact<br />From Day One
+      </h2>
+      <p class="text-base max-w-lg mx-auto" style="color:var(--text-secondary);line-height:1.7;">
+        Practices using AI-powered billing see improvements across every metric that matters — from AR days to denial rates to staff satisfaction.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-4 gap-5">
+
+      <div class="text-center fade-up delay-1">
+        <div class="result-stat mb-2">90%+</div>
+        <div class="text-sm font-semibold mb-1" style="color:var(--text-primary);">Verification time reduced</div>
+        <p class="text-xs leading-relaxed" style="color:var(--text-muted);">What took 20 minutes now takes seconds</p>
+      </div>
+
+      <div class="text-center fade-up delay-2">
+        <div class="result-stat mb-2">40–60%</div>
+        <div class="text-sm font-semibold mb-1" style="color:var(--text-primary);">Fewer claim denials</div>
+        <p class="text-xs leading-relaxed" style="color:var(--text-muted);">AI scrubs catch errors before submission</p>
+      </div>
+
+      <div class="text-center fade-up delay-3">
+        <div class="result-stat mb-2">10–20d</div>
+        <div class="text-sm font-semibold mb-1" style="color:var(--text-primary);">Faster AR collection</div>
+        <p class="text-xs leading-relaxed" style="color:var(--text-muted);">Cash arrives days faster, every month</p>
+      </div>
+
+      <div class="text-center fade-up delay-4">
+        <div class="result-stat mb-2">50%</div>
+        <div class="text-sm font-semibold mb-1" style="color:var(--text-primary);">Less administrative rework</div>
+        <p class="text-xs leading-relaxed" style="color:var(--text-muted);">Your team stops living in the rejection queue</p>
+      </div>
+
+    </div>
+  </div>
+
+  <hr class="section-divider" />
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     ROI COMPARISON
+═══════════════════════════════════════════ -->
+<section id="roi" aria-labelledby="roi-heading" class="section-base">
+  <div class="max-w-4xl mx-auto px-6 py-20">
+
+    <div class="text-center mb-12 fade-up">
+      <span class="label-pill mb-4 inline-block">ROI</span>
+      <h2 id="roi-heading" class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4" style="letter-spacing:-0.03em;line-height:1.1;">
+        The Math Is Simple
+      </h2>
+      <p class="text-base max-w-lg mx-auto" style="color:var(--text-secondary);line-height:1.7;">
+        Compare the true all-in cost of manual billing against Dental Maverick AI — and see what you've been leaving on the table.
+      </p>
+    </div>
+
+    <div class="fade-up" style="border:1px solid var(--border);border-radius:1rem;overflow:hidden;background:var(--bg-surface);">
+      <div class="roi-table-wrapper">
+        <table class="roi-table" role="table" aria-label="Manual billing vs Dental Maverick AI cost comparison">
+          <thead>
+            <tr style="background:var(--bg-base);">
+              <th class="text-left col-label" scope="col">Line Item</th>
+              <th class="text-center" scope="col" style="color:var(--text-secondary);">Manual Employee</th>
+              <th class="text-center" scope="col" style="color:var(--ink);">Dental Maverick AI</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-label">Base salary / subscription</td>
+              <td class="text-center col-manual">$45,000–$60,000/yr</td>
+              <td class="text-center col-ai">$8,388/yr</td>
+            </tr>
+            <tr style="background:var(--bg-base);">
+              <td class="col-label">Benefits &amp; payroll taxes</td>
+              <td class="text-center col-manual">$13,000–$18,000/yr</td>
+              <td class="text-center col-ai">—</td>
+            </tr>
+            <tr>
+              <td class="col-label">Turnover &amp; training cost</td>
+              <td class="text-center col-manual">$15,000–$20,000/yr</td>
+              <td class="text-center col-ai">—</td>
+            </tr>
+            <tr style="background:var(--bg-base);">
+              <td class="col-label">Revenue leakage from errors</td>
+              <td class="text-center col-manual">$65,000–$200,000/yr</td>
+              <td class="text-center col-ai">Largely eliminated</td>
+            </tr>
+            <tr>
+              <td class="col-label">Denial rate</td>
+              <td class="text-center col-manual">15–25% typical</td>
+              <td class="text-center col-ai">&lt; 5% target</td>
+            </tr>
+            <tr style="background:var(--bg-base);">
+              <td class="col-label font-bold" style="color:var(--text-primary);">True annual drag</td>
+              <td class="text-center font-bold" style="color:var(--text-secondary);">$138,000–$298,000</td>
+              <td class="text-center font-bold" style="color:var(--ink);">$8,388</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- Net savings callout -->
+      <div style="background:var(--roi-bar-bg);padding:1.5rem 2rem;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem;transition:background-color 0.3s ease;">
+        <div>
+          <div class="text-xs font-bold tracking-widest uppercase" style="color:var(--roi-bar-label);margin-bottom:0.25rem;">Estimated Annual Net Savings</div>
+          <div class="text-2xl font-extrabold tracking-tight" style="color:var(--roi-bar-value);letter-spacing:-0.03em;">$130,000 – $290,000+</div>
+        </div>
+        <a href="#waitlist" style="display:inline-flex;align-items:center;gap:0.375rem;background:var(--roi-btn-bg);color:var(--roi-btn-text);font-size:0.875rem;font-weight:700;letter-spacing:0.02em;padding:0.625rem 1.25rem;border-radius:9999px;border:none;text-decoration:none;cursor:pointer;transition:opacity 0.2s ease,transform 0.2s ease,background-color 0.3s ease,color 0.3s ease;box-shadow:0 2px 12px rgba(0,0,0,0.2);">
+          Claim Your Savings
+          <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+            <path d="M2.5 7h9M7.5 3l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <hr class="section-divider" />
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     WAITLIST SECTION
+═══════════════════════════════════════════ -->
+<section id="waitlist" aria-labelledby="waitlist-heading" class="section-surface">
+  <div class="max-w-xl mx-auto px-6 py-20">
+
+    <div class="text-center mb-10 fade-up">
+      <span class="label-pill mb-4 inline-block">Early Access</span>
+      <h2 id="waitlist-heading" class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4" style="letter-spacing:-0.03em;line-height:1.1;">
+        Be First in Line
+      </h2>
+      <p class="text-base" style="color:var(--text-secondary);line-height:1.7;">
+        Join the waitlist and we'll reach out personally when your access is ready. Early members receive priority onboarding and preferred pricing.
+      </p>
+    </div>
+
+    <div class="fade-up delay-1">
+
+      <form
+        id="waitlist-form"
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+        novalidate
+        style="display:flex;flex-direction:column;gap:1.25rem;"
+      >
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1.25rem;">
+          <div>
+            <label for="first-name" class="form-label">First Name</label>
+            <input
+              type="text"
+              id="first-name"
+              name="first_name"
+              placeholder="Jane"
+              autocomplete="given-name"
+              class="form-field"
+            />
+          </div>
+          <div>
+            <label for="email" class="form-label">Email <span style="color:var(--text-muted);">*</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="jane@yourpractice.com"
+              autocomplete="email"
+              required
+              class="form-field"
+            />
+          </div>
+        </div>
+
+        <div>
+          <label for="practice-name" class="form-label">Practice / Clinic Name</label>
+          <input
+            type="text"
+            id="practice-name"
+            name="practice_name"
+            placeholder="Bright Smiles Family Dentistry"
+            class="form-field"
+          />
+        </div>
+
+        <div>
+          <label for="role" class="form-label">Your Role</label>
+          <select id="role" name="role" class="form-field" style="cursor:pointer;">
+            <option value="" disabled selected>Select your role…</option>
+            <option value="owner-dentist">Owner-Dentist</option>
+            <option value="practice-manager">Practice Manager</option>
+            <option value="office-manager">Office Manager</option>
+            <option value="billing-specialist">Billing Specialist</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="phone" class="form-label">Phone Number</label>
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="+1 (555) 000-0000"
+            autocomplete="tel"
+            class="form-field"
+          />
+        </div>
+
+        <button type="submit" class="btn-primary" style="width:100%;justify-content:center;font-size:1rem;padding:0.875rem 1.5rem;margin-top:0.25rem;border-radius:0.625rem;">
+          Request Early Access
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M3 8h10M8 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <p class="text-center text-xs" style="color:var(--text-muted);line-height:1.6;">
+          No spam. No obligations. We'll only contact you about your access and onboarding.
+        </p>
+      </form>
+
+      <!-- Success state -->
+      <div id="form-success" role="status" aria-live="polite">
+        <div style="width:3rem;height:3rem;background:var(--ink);color:var(--ink-text);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 1.25rem;">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M4 10l4.5 4.5 8-8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <h3 class="text-xl font-bold tracking-tight mb-2">You're on the list.</h3>
+        <p style="color:var(--text-secondary);font-size:0.95rem;line-height:1.7;">
+          We'll be in touch soon with your early access details. In the meantime, tell another dentist about Dental Maverick AI.
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <hr class="section-divider" />
+</section>
+
+
+<!-- ══════════════════════════════════════════
+     FAQ SECTION
+═══════════════════════════════════════════ -->
+<section id="faq" aria-labelledby="faq-heading" class="section-base">
+  <div class="max-w-2xl mx-auto px-6 py-20">
+
+    <div class="text-center mb-12 fade-up">
+      <span class="label-pill mb-4 inline-block">FAQ</span>
+      <h2 id="faq-heading" class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4" style="letter-spacing:-0.03em;line-height:1.1;">
+        Common Questions
+      </h2>
+    </div>
+
+    <div class="fade-up delay-1">
+
+      <div class="faq-item">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-1">
+          <span>What is Dental Maverick AI?</span>
+          <span class="faq-icon" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M5 1v8M1 5h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer" id="faq-1" role="region">
+          <div class="faq-answer-inner">
+            <p>Dental Maverick AI is an AI-powered dental billing and insurance automation platform. It handles real-time eligibility verification, generates AI-assisted claim narratives with image attachments, submits claims in one click, and automatically follows up on outstanding claims — so your front desk can focus on patients instead of paperwork.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-2">
+          <span>How does Dental Maverick AI automate insurance verification?</span>
+          <span class="faq-icon" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M5 1v8M1 5h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer" id="faq-2" role="region">
+          <div class="faq-answer-inner">
+            <p>Dental Maverick AI connects directly to insurance portals and clearinghouses to pull real-time eligibility data for each patient. Verifications that once took 20–40 minutes per patient are completed in seconds, reducing verification time by 90% or more.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-3">
+          <span>How much does Dental Maverick AI cost?</span>
+          <span class="faq-icon" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M5 1v8M1 5h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer" id="faq-3" role="region">
+          <div class="faq-answer-inner">
+            <p>Dental Maverick AI starts at $699 per month — a fraction of the cost of a full-time billing employee and a small percentage of the revenue leakage most practices experience from manual billing errors.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-4">
+          <span>How much can a dental practice save by switching to AI billing?</span>
+          <span class="faq-icon" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M5 1v8M1 5h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer" id="faq-4" role="region">
+          <div class="faq-answer-inner">
+            <p>Practices typically recover $65,000–$200,000 per year in previously leaked revenue, reduce claim denials by 40–60%, accelerate accounts receivable by 10–20 days, and cut administrative rework by up to 50%. The net savings relative to a manual employee ranges from $130,000 to $290,000+ per year.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-trigger" aria-expanded="false" aria-controls="faq-5">
+          <span>Is Dental Maverick AI built by dentists?</span>
+          <span class="faq-icon" aria-hidden="true">
+            <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M5 1v8M1 5h8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </span>
+        </button>
+        <div class="faq-answer" id="faq-5" role="region">
+          <div class="faq-answer-inner">
+            <p>Dental Maverick AI was designed in close collaboration with practicing dentists and dental office managers who understand the real friction points in dental billing. The platform is purpose-built for dental — not a generic billing tool adapted for the industry.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <hr class="section-divider" />
+</section>
+
+</main>
+
+<!-- ══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer role="contentinfo" class="section-surface">
+  <div class="max-w-5xl mx-auto px-6 py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
+    <div class="flex flex-col items-center sm:items-start gap-3">
+      <img
+        src="brand_assets/assets/logo-primary-horizontal-dark.png"
+        alt="Dental Maverick AI"
+        height="28"
+        style="height:28px;width:auto;"
+      />
+      <p class="text-xs text-center sm:text-left" style="color:var(--text-muted);max-width:300px;line-height:1.6;">
+        AI-powered dental billing and insurance automation. Serving dental practices at dentalmaverick.ai.
+      </p>
+    </div>
+
+    <div class="text-center sm:text-right">
+      <p class="text-xs" style="color:var(--text-muted);">
+        &copy; 2026 Dental Maverick AI. All rights reserved.
+      </p>
+      <p class="text-xs mt-1" style="color:var(--text-muted);">
+        <a href="https://dentalmaverick.ai" style="color:var(--text-muted);text-decoration:none;" class="hover:underline">dentalmaverick.ai</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ══════════════════════════════════════════
+     THEME SWITCHER
+═══════════════════════════════════════════ -->
+<div id="theme-switcher" role="button" aria-label="Toggle theme" tabindex="0">
+  <div class="theme-pill">
+    <span class="theme-dot" aria-hidden="true"></span>
+    <span class="theme-label">Minimal</span>
+  </div>
+</div>
+
+
+<!-- ══════════════════════════════════════════
+     SCRIPTS
+═══════════════════════════════════════════ -->
+<script>
+  /* ── Scroll Animations ── */
+  (function () {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((e) => {
+          if (e.isIntersecting) {
+            e.target.classList.add('visible');
+            observer.unobserve(e.target);
+          }
+        });
+      },
+      { threshold: 0.12, rootMargin: '0px 0px -40px 0px' }
+    );
+    document.querySelectorAll('.fade-up').forEach((el) => observer.observe(el));
+  })();
+
+
+  /* ── FAQ Accordion ── */
+  (function () {
+    document.querySelectorAll('.faq-trigger').forEach((trigger) => {
+      trigger.addEventListener('click', function () {
+        const expanded = this.getAttribute('aria-expanded') === 'true';
+        const answerId = this.getAttribute('aria-controls');
+        const answer = document.getElementById(answerId);
+
+        // Close all others
+        document.querySelectorAll('.faq-trigger').forEach((t) => {
+          if (t !== this) {
+            t.setAttribute('aria-expanded', 'false');
+            const id = t.getAttribute('aria-controls');
+            document.getElementById(id)?.classList.remove('open');
+          }
+        });
+
+        // Toggle current
+        this.setAttribute('aria-expanded', String(!expanded));
+        answer.classList.toggle('open', !expanded);
+      });
+    });
+  })();
+
+
+  /* ── Waitlist Form ── */
+  (function () {
+    const form = document.getElementById('waitlist-form');
+    const success = document.getElementById('form-success');
+    if (!form) return;
+
+    form.addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      const btn = form.querySelector('button[type="submit"]');
+      btn.disabled = true;
+      btn.textContent = 'Submitting…';
+
+      try {
+        const data = new FormData(form);
+        const res = await fetch(form.action, {
+          method: 'POST',
+          body: data,
+          headers: { Accept: 'application/json' },
+        });
+
+        if (res.ok) {
+          form.style.display = 'none';
+          success.classList.add('visible');
+        } else {
+          btn.disabled = false;
+          btn.innerHTML = 'Request Early Access <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M8 4l4 4-4 4" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+          alert('Something went wrong. Please try again or email us directly.');
+        }
+      } catch {
+        btn.disabled = false;
+        btn.innerHTML = 'Request Early Access';
+        alert('Network error. Please check your connection and try again.');
+      }
+    });
+  })();
+
+
+  /* ── Theme Switcher ── */
+  (function () {
+    const themes = [
+      {
+        id: 'minimal',
+        label: 'Minimal',
+        logo: 'brand_assets/assets/logo-primary-horizontal-dark.png',
+        icon: '☀',
+      },
+      {
+        id: 'dark',
+        label: 'Dark',
+        logo: 'brand_assets/assets/logo-primary-horizontal-light.png',
+        icon: '◐',
+      },
+    ];
+
+    const logo    = document.getElementById('nav-logo');
+    const switcher = document.getElementById('theme-switcher');
+    const pill     = switcher?.querySelector('.theme-pill');
+    const dot      = switcher?.querySelector('.theme-dot');
+    const labelEl  = switcher?.querySelector('.theme-label');
+
+    function applyTheme(id) {
+      const theme = themes.find((t) => t.id === id) || themes[0];
+      document.documentElement.setAttribute('data-theme', theme.id);
+      localStorage.setItem('dm-theme', theme.id);
+      if (logo)    logo.src = theme.logo;
+      if (labelEl) labelEl.textContent = theme.label;
+    }
+
+    // Restore saved or default
+    const saved = localStorage.getItem('dm-theme');
+    applyTheme(saved && themes.find((t) => t.id === saved) ? saved : 'minimal');
+
+    // Click or Enter/Space cycles through themes
+    function cycleTheme() {
+      const current = document.documentElement.getAttribute('data-theme') || 'minimal';
+      const idx  = themes.findIndex((t) => t.id === current);
+      const next = themes[(idx + 1) % themes.length];
+      applyTheme(next.id);
+    }
+    switcher?.addEventListener('click', cycleTheme);
+    switcher?.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); cycleTheme(); }
+    });
+  })();
+</script>
+
+</body>
+</html>
