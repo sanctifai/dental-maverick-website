@@ -1135,6 +1135,7 @@
   <div class="max-w-5xl mx-auto px-6 py-12 flex flex-col sm:flex-row items-center justify-between gap-6">
     <div class="flex flex-col items-center sm:items-start gap-3">
       <img
+        id="footer-logo"
         src="brand_assets/assets/logo-primary-horizontal-dark.png"
         alt="Dental Maverick AI"
         height="28"
@@ -1271,18 +1272,18 @@
       },
     ];
 
-    const logo    = document.getElementById('nav-logo');
-    const switcher = document.getElementById('theme-switcher');
-    const pill     = switcher?.querySelector('.theme-pill');
-    const dot      = switcher?.querySelector('.theme-dot');
-    const labelEl  = switcher?.querySelector('.theme-label');
+    const navLogo    = document.getElementById('nav-logo');
+    const footerLogo = document.getElementById('footer-logo');
+    const switcher   = document.getElementById('theme-switcher');
+    const labelEl    = switcher?.querySelector('.theme-label');
 
     function applyTheme(id) {
       const theme = themes.find((t) => t.id === id) || themes[0];
       document.documentElement.setAttribute('data-theme', theme.id);
       localStorage.setItem('dm-theme', theme.id);
-      if (logo)    logo.src = theme.logo;
-      if (labelEl) labelEl.textContent = theme.label;
+      if (navLogo)    navLogo.src    = theme.logo;
+      if (footerLogo) footerLogo.src = theme.logo;
+      if (labelEl)    labelEl.textContent = theme.label;
     }
 
     // Restore saved or default
